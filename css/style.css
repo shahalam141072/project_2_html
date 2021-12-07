@@ -1,0 +1,615 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.clr {
+    clear: both;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* =================================== navbar css start from here ======================== */
+#navbar {
+    background: rgba(0, 0, 0, 0.6);
+    line-height: 90px;
+    position: absolute;
+    width: 100%;
+
+}
+
+.header {}
+
+.logo {
+    width: 200px;
+    float: left;
+}
+
+.menu {
+    width: 970px;
+    float: left;
+
+
+}
+
+.menu ul {
+    float: right;
+}
+
+.menu ul li {
+    display: inline-block;
+
+}
+
+.menu ul li a {
+    text-transform: uppercase;
+    padding-left: 42px;
+    color: white;
+    font-size: 14px;
+    transition: 0.4s;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.menu ul li a:hover {
+    color: #1b5061;
+}
+
+
+/* ======================= banner part style from here================== */
+
+
+.banner {
+    background: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 333px;
+    padding-bottom: 246px;
+
+}
+
+.banner_text {
+    text-align: center;
+}
+
+.banner_text h1 {
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.banner_text h2 {
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    letter-spacing: 5px;
+
+
+}
+
+.banner_text p {
+    font-size: 14px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+
+}
+
+/* ============================ */
+
+
+#section_part {
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+
+.service_txt {
+    text-align: center;
+    padding-bottom: 20px;
+
+
+}
+
+.service_txt h2 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: #444444;
+    padding-bottom: 15px;
+
+}
+
+.service_tet p {
+    font-family: 'Roboto', serif;
+    font: 400;
+    font-size: 14px;
+    color: #666666;
+
+}
+
+.service_main {
+    padding-top: 20px;
+}
+
+.service_item {
+    width: 370px;
+    padding: 15px;
+    border: 1px solid #e3e3e3;
+    float: left;
+    margin-right: 30px;
+}
+
+.extra {
+    margin-right: 0;
+}
+
+.service_item img {
+    width: 100%;
+}
+
+
+.service_item h2 {
+    text-align: center;
+    padding-top: 24px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 17px;
+    color: #444444;
+
+}
+
+.service_item p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #666666;
+
+}
+
+.s_header {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.s_header h2 {
+    font-size: 18px;
+    font-family: 'Roboto', serif;
+    color: #444444;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+
+/* ============================= gallary part start from here ========================== */
+#gallary {
+    background: #2c2c2c;
+    position: relative;
+
+}
+
+.gallary_heading {
+    text-align: center;
+}
+
+.gallary_heading h2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: inline-block;
+    color: #d5d5d5;
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 18px;
+    position: relative;
+
+}
+
+.gallary_heading h2::after {
+    content: '';
+    position: absolute;
+    top: 59px;
+    left: -115px;
+    width: 100px;
+    height: 1px;
+    background: #535353;
+}
+
+.gallary_heading h2::before {
+    content: '';
+    position: absolute;
+    top: 59px;
+    right: -115px;
+    width: 100px;
+    height: 1px;
+    background: #535353;
+}
+
+.gallary_main {}
+
+.gallary_item {
+    width: 25%;
+    float: left;
+}
+
+.gallary_item img {
+    width: 100%;
+}
+
+
+.button {
+    padding-top: 20px;
+}
+
+
+/* ====================================== */
+
+.instragram {
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
+
+.instra_img {
+    float: left;
+
+}
+
+.instra_text {
+    float: left;
+}
+
+/* ============================== */
+.instra {
+    text-align: center;
+}
+
+
+.instra a {
+    display: inline-block;
+    border: 1px solid #8e8e8e;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 58px;
+    margin-bottom: 50px;
+    padding: 18px 20px;
+    font-family: 'Roboto', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #8e8e8e;
+
+}
+
+/* ========================= journal part start from here ================== */
+
+#journal {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.journal_head {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.journal_head h2 {
+    font-family: 'Roboto', serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #444444;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+
+}
+
+.journal_head h2::after {
+    content: '';
+    position: absolute;
+    background: #d9d9d9;
+    top: 10px;
+    left: -116px;
+    width: 100px;
+    height: 1px;
+}
+
+
+.journal_head h2::before {
+    content: '';
+    position: absolute;
+    background: #d9d9d9;
+    top: 10px;
+    right: -116px;
+    width: 100px;
+    height: 1px;
+}
+
+
+/* ==================================== */
+
+.journal_item {
+    width: 370px;
+    border: 1px solid #e3e3e3;
+    float: left;
+    margin-right: 30px;
+
+}
+
+.extra {
+    margin-right: 0;
+}
+
+.journal_item img {
+    width: 100%;
+}
+
+.journal_item .top {
+    text-align: center;
+    padding: 25px 25px;
+}
+
+.journal_item .top h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    color: #444444;
+    font-weight: 700;
+
+
+}
+
+.journal_item .top h6 {
+    font-family: 'Roboto', serif;
+    font-size: 12px;
+    color: #999999;
+    font-weight: 400;
+    padding-top: 10px;
+
+
+}
+
+.journal_item .bottom {
+    padding: 25px 25px;
+}
+
+.journal_item .bottom p {
+    font-family: 'Roboto', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+    text-align: justify;
+
+}
+
+.journal_item .bottom h6 {
+    font-family: 'Roboto', serif;
+    font-size: 11px;
+    font-weight: 400;
+    color: #999999;
+    text-align: justify;
+    padding-top: 25px;
+    position:relative;
+}
+
+
+.journal_item .bottom h6::after{
+    content: '';
+    position: absolute;
+    top: 42px;
+    left: 0;
+    background: #28b8d8;
+    width: 100px;
+    height: 1px;
+
+
+}
+
+
+
+.journal_item .bottom span {
+    float: right;
+
+}
+
+/* ============================= little part start from here ==================== */
+
+#little {
+    margin-bottom: 80px;
+}
+
+.left_little {
+    width: 570px;
+    float: left;
+    margin-right: 30px;
+}
+
+.left_little_heading {
+    margin-bottom: 30px;
+
+}
+
+.left_little_heading h2 {
+    font-family: 'Roboto', serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #444444;
+    position: relative;
+}
+
+.left_little_heading h2::after {
+    content: '';
+    position: absolute;
+    background: #d9d9d9;
+    width: 100px;
+    height: 1px;
+    top: 11px;
+    left: 150px;
+}
+
+/* ==================================== */
+
+
+.left_little_pic {
+    width: 200px;
+    margin-right: 25px;
+    float: left;
+
+}
+
+.left_little_pic img {
+    width: 100%;
+}
+
+
+.left_little_text {
+    width: 340px;
+    float: left;
+}
+
+.left_little_text h2 {
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    color: #666666;
+    padding-bottom: 25px;
+    line-height: 28px;
+
+}
+
+
+.left_little_text p {
+    font-size: 12px;
+    font-family: 'Roboto', serif;
+    font-weight: 400;
+    color: #666666;
+    line-height: 24px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =================================== */
+
+
+
+.right_little {
+    float: left;
+    width: 570px;
+}
+
+.right_1div {
+    padding-bottom: 30px;
+}
+
+.right_1div_leftcontent {
+    width: 50px;
+    float: left;
+    margin-right: 25px;
+}
+
+.right_1div_leftcontent img {
+    width: 100%;
+}
+
+.right_1div_rightcontent {
+    width: 495px;
+    float: left;
+}
+
+.right_1div_rightcontent h2 {
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    line-height: 22px;
+    color: #444444;
+    padding-bottom: 15px;
+
+}
+
+.right_1div_rightcontent p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', serif;
+    line-height: 22px;
+    color: #666666;
+
+}
+
+/* ================================= contact start from here =========================== */
+#contact {
+    background: #373737;
+    padding: 70px 70px;
+}
+
+.contact_item {
+    float: left;
+    width: 255px;
+    color: #cacaca;
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 50px;
+    font-family: 'Roboto', serif;
+}
+
+.contact_item h2 {
+    padding-bottom: 25px;
+}
+
+.contact_item p {
+    padding-bottom: 35px;
+}
+
+.contant_item h6 {
+    margin: 0;
+    padding: 0;
+}
+
+
+.nomargin {
+    margin-right: 0;
+}
+
+/* ==================== footer part ================== */
+#footer {
+    background: #333333;
+    padding: 40px 40px;
+    font-family: 'Roboto', serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color:#cacaca;
+}
